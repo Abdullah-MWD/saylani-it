@@ -3,492 +3,786 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Simple Header</title>
-
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Saylani IT</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-  <div class="bg">
-    <header class="header">
-
-
-
+  <div class="nav">
+    <div class="header">
       <img src="https://www.saylaniit.com/assets/sit-logo.png" class="logo" alt="logo" width="200" height="auto">
-      
-
 
       <input type="checkbox" id="menu-toggle" class="menu-toggle">
 
       <label for="menu-toggle" class="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+
+        </svg>
+
       </label>
 
       <label for="menu-toggle" class="menu-overlay"></label>
 
 
-      <ul class="menu" id="menu">
 
-        <li class="mobile-menu-header">
-          <img src="https://www.saylaniit.com/assets/sit-logo.png" alt="Saylani IT Training">
-          <label for="menu-toggle" class="close-menu">&times;</label>
-        </li>
+      <div class="menubox">
+        <ul class="menu">
+          <li class="menu-item" ><img src="https://www.saylaniit.com/assets/sit-logo.png" class="logo1" alt="logo" width="150px" height="auto"></li>
+          <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+          <li class="menu-item"><a href="#" class="menu-link">About</a></li>
+          <li class="menu-item courses"><a href="#" class="menu-link" id="courses-link">Courses <svg
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="3" class="iconarrow">
+                <path fill-rule="evenodd"
+                  d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+                  clip-rule="evenodd" />
+              </svg>
+            </a>
+            <!-- ----------- -->
 
 
-        <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-        <li class="menu-item"><a href="#" class="menu-link">About</a></li>
+            <div class="mega" id="mega">
 
-        <!-- ---------- COURSES (isi ke andar bada box hai) ---------- -->
-        <li class="menu-item has-mega">
+              <!-- 5 columns -->
+              <div class="mega-columns">
 
-          <a href="#" class="menu-link" id="courses-link">Courses <svg xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20" fill="currentColor" class="iconarrow">
-              <path fill-rule="evenodd"
-                d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
-                clip-rule="evenodd" />
-            </svg>
-          </a>
+                <div class="column">
+                  <h4 class="column-title"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" class="icon" aria-hidden="true">
+                      <path
+                        d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+                      </path>
+                      <path d="M22 10v6"></path>
+                      <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+                    </svg> DEVELOPMENT</h4>
+                  <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round" class="icon_2" aria-hidden="true">
+                      <path
+                        d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+                      </path>
+                      <path d="M22 10v6"></path>
+                      <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+                    </svg> Bootcamp (Artificial..</a>
+                  <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round" class="icon_2" aria-hidden="true">
+                      <path
+                        d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+                      </path>
+                      <path d="M22 10v6"></path>
+                      <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+                    </svg> Bootcamp (Blockchain)</a>
+                  <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round" class="icon_2" aria-hidden="true">
+                      <path
+                        d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+                      </path>
+                      <path d="M22 10v6"></path>
+                      <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+                    </svg> Odoo Functional Consultant</a>
+                  <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round" class="icon_2" aria-hidden="true">
+                      <path
+                        d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+                      </path>
+                      <path d="M22 10v6"></path>
+                      <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+                    </svg> Devops Engineer</a>
+                </div>
 
-          <!-- BADA BOX shuru mein chhupa hua-->
-          <div class="mega" id="mega">
+                <div class="column">
+                  <h4 class="column-title"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" class="icon" aria-hidden="true">
+                      <path
+                        d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+                      </path>
+                      <path d="M22 10v6"></path>
+                      <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+                    </svg> DESIGNING</h4>
+                  <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round" class="icon_2" aria-hidden="true">
+                      <path
+                        d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+                      </path>
+                      <path d="M22 10v6"></path>
+                      <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+                    </svg> Video Content Creation</a>
+                  <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round" class="icon_2" aria-hidden="true">
+                      <path
+                        d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+                      </path>
+                      <path d="M22 10v6"></path>
+                      <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+                    </svg> Video Animation</a>
+                  <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round" class="icon_2" aria-hidden="true">
+                      <path
+                        d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+                      </path>
+                      <path d="M22 10v6"></path>
+                      <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+                    </svg> UI UX Design With AI</a>
+                  <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round" class="icon_2" aria-hidden="true">
+                      <path
+                        d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+                      </path>
+                      <path d="M22 10v6"></path>
+                      <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+                    </svg> Autocad</a>
+                </div>
 
-            <!-- 5 columns -->
-            <div class="mega-columns">
+                <div class="column">
+                  <h4 class="column-title"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" class="icon" aria-hidden="true">
+                      <path
+                        d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+                      </path>
+                      <path d="M22 10v6"></path>
+                      <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+                    </svg> NETWORKING</h4>
+                  <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round" class="icon_2" aria-hidden="true">
+                      <path
+                        d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+                      </path>
+                      <path d="M22 10v6"></path>
+                      <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+                    </svg> SOC Analyst CyberOps</a>
+                  <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round" class="icon_2" aria-hidden="true">
+                      <path
+                        d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+                      </path>
+                      <path d="M22 10v6"></path>
+                      <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+                    </svg> Networking Essentials</a>
+                  <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round" class="icon_2" aria-hidden="true">
+                      <path
+                        d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+                      </path>
+                      <path d="M22 10v6"></path>
+                      <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+                    </svg> Cybersecurity Essentials</a>
+                  <a href="#" class="course-link"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round" class="icon_2" aria-hidden="true">
+                      <path
+                        d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+                      </path>
+                      <path d="M22 10v6"></path>
+                      <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+                    </svg> CyberOps Associate</a>
+                </div>
 
-              <div class="column">
-                <h4 class="column-title"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round" class="icon" aria-hidden="true">
-                    <path
-                      d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
-                    </path>
-                    <path d="M22 10v6"></path>
-                    <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
-                  </svg> DEVELOPMENT</h4>
-                <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" class="icon_2" aria-hidden="true">
-                    <path
-                      d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
-                    </path>
-                    <path d="M22 10v6"></path>
-                    <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
-                  </svg> Bootcamp (Artificial..</a>
-                <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" class="icon_2" aria-hidden="true">
-                    <path
-                      d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
-                    </path>
-                    <path d="M22 10v6"></path>
-                    <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
-                  </svg> Bootcamp (Blockchain)</a>
-                <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" class="icon_2" aria-hidden="true">
-                    <path
-                      d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
-                    </path>
-                    <path d="M22 10v6"></path>
-                    <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
-                  </svg> Odoo Functional Consultant</a>
-                <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" class="icon_2" aria-hidden="true">
-                    <path
-                      d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
-                    </path>
-                    <path d="M22 10v6"></path>
-                    <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
-                  </svg> Devops Engineer</a>
+                <div class="column">
+                  <h4 class="column-title"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" class="icon" aria-hidden="true">
+                      <path
+                        d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+                      </path>
+                      <path d="M22 10v6"></path>
+                      <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+                    </svg> ENTREPRENEURSHIP</h4>
+                  <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round" class="icon_2" aria-hidden="true">
+                      <path
+                        d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+                      </path>
+                      <path d="M22 10v6"></path>
+                      <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+                    </svg> Professional Communica..</a>
+                  <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round" class="icon_2" aria-hidden="true">
+                      <path
+                        d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+                      </path>
+                      <path d="M22 10v6"></path>
+                      <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+                    </svg> English Language</a>
+                  <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round" class="icon_2" aria-hidden="true">
+                      <path
+                        d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+                      </path>
+                      <path d="M22 10v6"></path>
+                      <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+                    </svg> AI &amp; Game Creators</a>
+                  <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round" class="icon_2" aria-hidden="true">
+                      <path
+                        d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+                      </path>
+                      <path d="M22 10v6"></path>
+                      <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+                    </svg> Little Geniuses: Coding</a>
+                </div>
+
+                <div class="column">
+                  <h4 class="column-title"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" class="icon" aria-hidden="true">
+                      <path
+                        d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+                      </path>
+                      <path d="M22 10v6"></path>
+                      <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+                    </svg> VOCATIONAL TRAINING</h4>
+                  <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round" class="icon_2" aria-hidden="true">
+                      <path
+                        d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+                      </path>
+                      <path d="M22 10v6"></path>
+                      <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+                    </svg> Health, Safety and Env.</a>
+                  <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round" class="icon_2" aria-hidden="true">
+                      <path
+                        d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+                      </path>
+                      <path d="M22 10v6"></path>
+                      <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+                    </svg> Fire Alarm System</a>
+                  <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round" class="icon_2" aria-hidden="true">
+                      <path
+                        d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+                      </path>
+                      <path d="M22 10v6"></path>
+                      <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+                    </svg> Domestic Electrician</a>
+                  <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round" class="icon_2" aria-hidden="true">
+                      <path
+                        d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+                      </path>
+                      <path d="M22 10v6"></path>
+                      <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+                    </svg> Plumber Technician</a>
+                </div>
+
               </div>
 
-              <div class="column">
-                <h4 class="column-title"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round" class="icon" aria-hidden="true">
-                    <path
-                      d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
-                    </path>
-                    <path d="M22 10v6"></path>
-                    <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
-                  </svg> DESIGNING</h4>
-                <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" class="icon_2" aria-hidden="true">
-                    <path
-                      d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
-                    </path>
-                    <path d="M22 10v6"></path>
-                    <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
-                  </svg> Video Content Creation</a>
-                <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" class="icon_2" aria-hidden="true">
-                    <path
-                      d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
-                    </path>
-                    <path d="M22 10v6"></path>
-                    <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
-                  </svg> Video Animation</a>
-                <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" class="icon_2" aria-hidden="true">
-                    <path
-                      d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
-                    </path>
-                    <path d="M22 10v6"></path>
-                    <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
-                  </svg> UI UX Design With AI</a>
-                <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" class="icon_2" aria-hidden="true">
-                    <path
-                      d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
-                    </path>
-                    <path d="M22 10v6"></path>
-                    <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
-                  </svg> Autocad</a>
+              <!-- Top Courses -->
+              <div class="top-courses">
+                <h4 class="top-title"> Top Courses</h4>
+
+                <div class="cards">
+                  <a href="#" class="card">
+                    <span class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" class="icon_2" aria-hidden="true">
+                        <path
+                          d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+                        </path>
+                        <path d="M22 10v6"></path>
+                        <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+                      </svg></span>
+                    <span>
+                      <b class="card-name">Bootcamp (Blockchain)</b><br>
+                      <small>4 months</small>
+                    </span>
+                  </a>
+
+                  <a href="#" class="card">
+                    <span class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" class="icon_2" aria-hidden="true">
+                        <path
+                          d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+                        </path>
+                        <path d="M22 10v6"></path>
+                        <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+                      </svg></span>
+                    <span>
+                      <b class="card-name">Odoo Functional</b><br>
+                      <small>10 months</small>
+                    </span>
+                  </a>
+
+                  <a href="#" class="card">
+                    <span class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" class="icon_2" aria-hidden="true">
+                        <path
+                          d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+                        </path>
+                        <path d="M22 10v6"></path>
+                        <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+                      </svg></span>
+                    <span>
+                      <b class="card-name">Video Content Creation</b><br>
+                      <small>4 months</small>
+                    </span>
+                  </a>
+
+                  <a href="#" class="card">
+                    <span class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" class="icon_2" aria-hidden="true">
+                        <path
+                          d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+                        </path>
+                        <path d="M22 10v6"></path>
+                        <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+                      </svg></span>
+                    <span>
+                      <b class="card-name">Devops Engineer</b><br>
+                      <small>6 months</small>
+                    </span>
+                  </a>
+                </div>
               </div>
 
-              <div class="column">
-                <h4 class="column-title"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round" class="icon" aria-hidden="true">
-                    <path
-                      d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
-                    </path>
-                    <path d="M22 10v6"></path>
-                    <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
-                  </svg> NETWORKING</h4>
-                <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" class="icon_2" aria-hidden="true">
-                    <path
-                      d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
-                    </path>
-                    <path d="M22 10v6"></path>
-                    <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
-                  </svg> SOC Analyst CyberOps</a>
-                <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" class="icon_2" aria-hidden="true">
-                    <path
-                      d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
-                    </path>
-                    <path d="M22 10v6"></path>
-                    <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
-                  </svg> Networking Essentials</a>
-                <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" class="icon_2" aria-hidden="true">
-                    <path
-                      d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
-                    </path>
-                    <path d="M22 10v6"></path>
-                    <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
-                  </svg> Cybersecurity Essentials</a>
-                <a href="#" class="course-link"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" class="icon_2" aria-hidden="true">
-                    <path
-                      d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
-                    </path>
-                    <path d="M22 10v6"></path>
-                    <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
-                  </svg> CyberOps Associate</a>
-              </div>
-
-              <div class="column">
-                <h4 class="column-title"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round" class="icon" aria-hidden="true">
-                    <path
-                      d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
-                    </path>
-                    <path d="M22 10v6"></path>
-                    <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
-                  </svg> ENTREPRENEURSHIP</h4>
-                <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" class="icon_2" aria-hidden="true">
-                    <path
-                      d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
-                    </path>
-                    <path d="M22 10v6"></path>
-                    <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
-                  </svg> Professional Communication</a>
-                <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" class="icon_2" aria-hidden="true">
-                    <path
-                      d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
-                    </path>
-                    <path d="M22 10v6"></path>
-                    <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
-                  </svg> English Language</a>
-                <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" class="icon_2" aria-hidden="true">
-                    <path
-                      d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
-                    </path>
-                    <path d="M22 10v6"></path>
-                    <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
-                  </svg> AI &amp; Game Creators</a>
-                <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" class="icon_2" aria-hidden="true">
-                    <path
-                      d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
-                    </path>
-                    <path d="M22 10v6"></path>
-                    <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
-                  </svg> Little Geniuses: Coding</a>
-              </div>
-
-              <div class="column">
-                <h4 class="column-title"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round" class="icon" aria-hidden="true">
-                    <path
-                      d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
-                    </path>
-                    <path d="M22 10v6"></path>
-                    <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
-                  </svg> VOCATIONAL TRAINING</h4>
-                <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" class="icon_2" aria-hidden="true">
-                    <path
-                      d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
-                    </path>
-                    <path d="M22 10v6"></path>
-                    <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
-                  </svg> Health, Safety and Env.</a>
-                <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" class="icon_2" aria-hidden="true">
-                    <path
-                      d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
-                    </path>
-                    <path d="M22 10v6"></path>
-                    <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
-                  </svg> Fire Alarm System</a>
-                <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" class="icon_2" aria-hidden="true">
-                    <path
-                      d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
-                    </path>
-                    <path d="M22 10v6"></path>
-                    <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
-                  </svg> Domestic Electrician</a>
-                <a href="#" class="course-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                    stroke-linejoin="round" class="icon_2" aria-hidden="true">
-                    <path
-                      d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
-                    </path>
-                    <path d="M22 10v6"></path>
-                    <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
-                  </svg> Plumber Technician</a>
+              <!-- See All Courses -->
+              <div class="see-all">
+                <a href="#">See All Courses <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="currentColor" class="icona">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                  </svg>
+                </a>
               </div>
 
             </div>
+            <!-- /BADA BOX -->
 
-            <!-- Top Courses (grey patti) -->
-            <div class="top-courses">
-              <h4 class="top-title"> Top Courses</h4>
+          </li>
+          <!-- ------------------------------------------------------ -->
 
-              <div class="cards">
-                <a href="#" class="card">
-                  <span class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23"
-                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                      stroke-linejoin="round" class="icon_2" aria-hidden="true">
-                      <path
-                        d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
-                      </path>
-                      <path d="M22 10v6"></path>
-                      <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
-                    </svg></span>
-                  <span>
-                    <b class="card-name">Bootcamp (Blockchain)</b><br>
-                    <small>4 months</small>
-                  </span>
-                </a>
 
-                <a href="#" class="card">
-                  <span class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                      stroke-linejoin="round" class="icon_2" aria-hidden="true">
-                      <path
-                        d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
-                      </path>
-                      <path d="M22 10v6"></path>
-                      <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
-                    </svg></span>
-                  <span>
-                    <b class="card-name">Odoo Functional</b><br>
-                    <small>10 months</small>
-                  </span>
-                </a>
 
-                <a href="#" class="card">
-                  <span class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                      stroke-linejoin="round" class="icon_2" aria-hidden="true">
-                      <path
-                        d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
-                      </path>
-                      <path d="M22 10v6"></path>
-                      <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
-                    </svg></span>
-                  <span>
-                    <b class="card-name">Video Content Creation</b><br>
-                    <small>4 months</small>
-                  </span>
-                </a>
+          <!-- ------------------------------------------- -->
+          <li class="menu-item"><a href="#" class="menu-link">Campuses</a></li>
+          <li class="menu-item"><a href="#" class="menu-link">Check Result</a></li>
+          <li class="menu-item "><a href="#" class="enroll-btn">Enroll Now <svg xmlns="http://www.w3.org/2000/svg"
+                fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="icona">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+              </svg></a></li>
 
-                <a href="#" class="card">
-                  <span class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                      stroke-linejoin="round" class="icon_2" aria-hidden="true">
-                      <path
-                        d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
-                      </path>
-                      <path d="M22 10v6"></path>
-                      <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
-                    </svg></span>
-                  <span>
-                    <b class="card-name">Devops Engineer</b><br>
-                    <small>6 months</small>
-                  </span>
-                </a>
-              </div>
-            </div>
-
-            <!-- See All Courses -->
-            <div class="see-all">
-              <a href="#">See All Courses <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                  stroke-width="1.5" stroke="currentColor" class="icona">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                </svg>
-              </a>
-            </div>
-
-          </div>
-          <!-- /BADA BOX -->
-
-        </li>
-        <!--COURSES --->
-
-        <li class="menu-item"><a href="#" class="menu-link">Campuses</a></li>
-        <li class="menu-item"><a href="#" class="menu-link">Check Result</a></li>
-        <li class="menu-item"><a href="#" class="enroll-btn">Enroll Now <svg xmlns="http://www.w3.org/2000/svg"
-              fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="icona">
-              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-            </svg></a></li>
-
-      </ul>
-    </header>
+        </ul>
+      </div>
+    </div>
   </div>
 
 
-  
-  <div class="build">
-  
+  <section class="hero">
 
-    <h1 class="building">Building Pakistan's</h1>
-    <h1 class="tech">Tech Future</h1>
-  </div>
-  <div class="chang">
-    <p class="changing">Changing Lives. Building Careers. Shaping the </p>
-    <p class="changingf">Future.</p>
-  </div>
-  <div class="logoS">
-    <img src="https://www.saylaniit.com/_next/image?url=%2Fassets%2Fsaylani_logo.png&w=256&q=75" alt="Saylanilogo"
-      width="160px" height="40px">
-  </div>
+    <img src="laptop_icon.webp" width="150px" height="auto" alt="" class="hero-laptop">
 
-  <div class="button-container">
-    <a href="#" class="btn btn-primary">ENROLL NOW</a>
 
-    <a href="#" class="btn btn-outline">EXPLORE COURSES</a>
-  </div>
+    <img src="up_arrow.webp" width="120px" height="auto" alt="" class="hero-plane-top">
 
-   <div class="media-row">
-      <div class="boy"><img class="cardb" src="boy.webp" alt="Student"></div>
-      <div class="video-card"><iframe class="yvideop" src="https://www.youtube.com/embed/BFXpQyowANA?si=2gyHqTX2KtpKLQDE&amp;autoplay=1" ></iframe></div>
-      <div class="girl"><img class="cardb" src="girl.svg" alt="Student"></div>
+    <div class="build">
+      <h1 class="building">Building Pakistan's</h1>
+      <h1 class="tech">Tech Future</h1>
     </div>
 
-<section class="stats">
+    <div class="chang">
+      <p class="changing">
+        Changing Lives. Building Careers. Shaping the
+      </p>
+
+      <p class="changingf">
+        Future.
+      </p>
+    </div>
+
+    <div class="logoS">
+      <img src="https://www.saylaniit.com/_next/image?url=%2Fassets%2Fsaylani_logo.png&w=256&q=75" alt="Saylani Logo"
+        width="160" height="40">
+    </div>
+
+    <div class="button-container">
+      <a href="#" class="btn btn-primary">ENROLL NOW</a>
+      <a href="#" class="btn btn-outline">EXPLORE COURSES</a>
+    </div>
+
+
+    <img src="down_arrow.webp" width="150px" height="auto" alt="" class="hero-plane-bottom">
+
+    <img src="globe_icon.webp" width="120px" height="auto" alt="" class="hero-globe">
+
+  </section>
+
+  <div class="media-row">
+    <div class="boy"><img class="cardb" src="boy.webp" alt="Student"></div>
+    <div class="video-card"><iframe class="yvideop"
+        src="https://www.youtube.com/embed/BFXpQyowANA?si=2gyHqTX2KtpKLQDE&amp;autoplay=1"></iframe></div>
+    <div class="girl"><img class="cardb" src="girl.svg" alt="Student"></div>
+  </div>
+
+  <section class="stats">
     <div class="stats-box">
-      <div><strong>400,000+</strong><p>Students Trained<p></div>
-      <div><strong>400+</strong><p>Trainers<p></div>
-      <div><strong>80%</strong><p>Employment Success<p></div>
-      <div><strong>150+</strong><p>Startups Launched</p></div>
+      <div><strong>400,000+</strong>
+        <p>Students Trained
+        <p>
+      </div>
+      <div><strong>400+</strong>
+        <p>Trainers
+        <p>
+      </div>
+      <div><strong>80%</strong>
+        <p>Employment Success
+        <p>
+      </div>
+      <div><strong>150+</strong>
+        <p>Startups Launched</p>
+      </div>
     </div>
   </section>
 
-<section class="why">
+
+  <section class="why">
     <div class="containerwhy">
       <div class="iconhand">
-       <div class="feature"><div class="iconwhy"><img  src="Real.webp" alt="" width="100%" height="auto"  ></div><h3>Hands-On Training &amp;</h3><p>Real-World Projects</p></div>
-        <div class="feature"><div class="iconwhy"><img src="freelancing.webp" alt=""  width="100%" height="auto"  ></div><h3>80% Employment &amp;</h3><p>Freelancing Success Rate</p></div>
-</div>
-<div class="saylaniemp">
- <div class="feature2"> <div class="feature"><div class="iconwhy"><img  src="earth_icon.webp" alt="" width="100%" height="auto"  ></div><h3>Recognized by Cisco &amp;</h3><p>Global Tech Giants</h3></p></div></div>
-      <div class="epmsay"><span class="pill">Why Choose SIT?</span>
-      <h2 class="Emp">Empowering You with World-Class  </h2> <h2 class="Emp">IT Training Proven Success</h2></div>
-    <div class="feature2">  <div class="feature"><div class="iconwhy"><img  src="graduate_cap.webp" alt="" width="100%" height="auto"  ></div><h3>Recognized by Cisco &amp;</h3><p>Global Tech Giants</h3></p></div></div>
- </div>
+        <div class="feature">
+          <div class="iconwhy"><img src="Real.webp" alt="" width="100%" height="auto"></div>
+          <h3>Hands-On Training &amp;</h3>
+          <p>Real-World Projects</p>
+        </div>
+        <div class="feature">
+          <div class="iconwhy"><img src="freelancing.webp" alt="" width="100%" height="auto"></div>
+          <h3>80% Employment &amp;</h3>
+          <p>Freelancing Success Rate</p>
+        </div>
+      </div>
+      <div class="saylaniemp">
+        <div class="feature2">
+          <div class="feature">
+            <div class="iconwhy"><img src="earth_icon.webp" alt="" width="100%" height="auto"></div>
+            <h3>Recognized by Cisco &amp;</h3>
+            <p>Global Tech Giants</h3>
+            </p>
+          </div>
+        </div>
+        <div class="epmsay"><span class="pill">Why Choose SIT?</span>
+          <h2 class="Emp">Empowering You with World-Class </h2>
+          <h2 class="Emp">IT Training Proven Success</h2>
+        </div>
+        <div class="feature2">
+          <div class="feature">
+            <div class="iconwhy"><img src="graduate_cap.webp" alt="" width="100%" height="auto"></div>
+            <h3>Recognized by Cisco &amp;</h3>
+            <p>Global Tech Giants</h3>
+            </p>
+          </div>
+        </div>
+      </div>
       <div class="iconhand">
-       <div class="feature"><div class="iconwhy"><img  src="cisco.webp" alt="" width="100%" height="auto"  ></div><h3>Recognized by Cisco &amp;</h3><p>Global Tech Giants</h3></p></div>
-        <div class="feature"><div class="iconwhy"><img src="pakistan largest.webp" alt=""  width="100%" height="auto"  ></div><h3>Pakistan’s Largest IT</h3><p>Training Provider</p></div>
-</div>
+        <div class="feature">
+          <div class="iconwhy"><img src="cisco.webp" alt="" width="100%" height="auto"></div>
+          <h3>Recognized by Cisco &amp;</h3>
+          <p>Global Tech Giants</h3>
+          </p>
+        </div>
+        <div class="feature">
+          <div class="iconwhy"><img src="pakistan largest.webp" alt="" width="100%" height="auto"></div>
+          <h3>Pakistan’s Largest IT</h3>
+          <p>Training Provider</p>
+        </div>
+      </div>
 
- <div class="iconhandm">
-       <div class="feature"><div class="iconwhy"><img  src="Real.webp" alt="" width="100%" height="auto"  ></div><h3>Hands-On Training &amp;</h3><p>Real-World Projects</p></div>
-        <div class="feature"><div class="iconwhy"><img src="freelancing.webp" alt=""  width="100%" height="auto"  ></div><h3>80% Employment &amp;</h3><p>Freelancing Success Rate</p></div>
-</div>
+      <div class="iconhandm">
+        <div class="feature">
+          <div class="iconwhy"><img src="Real.webp" alt="" width="100%" height="auto"></div>
+          <h3>Hands-On Training &amp;</h3>
+          <p>Real-World Projects</p>
+        </div>
+        <div class="feature">
+          <div class="iconwhy"><img src="freelancing.webp" alt="" width="100%" height="auto"></div>
+          <h3>80% Employment &amp;</h3>
+          <p>Freelancing Success Rate</p>
+        </div>
+      </div>
 
- <div class="iconhandm">
-       <div class="feature"><div class="iconwhy"><img  src="graduate_cap.webp" alt="" width="100%" height="auto"  ></div><h3>Affordable &amp; Accessible</h3><p>Education for All</p></div>
-        <div class="feature"><div class="iconwhy"><img src="earth_icon.webp" alt=""  width="100%" height="auto"  ></div><h3>150+ Startups Launched</h3><p>Globally</p></div>
-</div>
- <div class="iconhandm">
-       <div class="feature"><div class="iconwhy"><img  src="cisco.webp" alt="" width="100%" height="auto"  ></div><h3>Recognized by Cisco &amp;</h3><p>Global Tech Giants</h3></p></div>
-        <div class="feature"><div class="iconwhy"><img src="pakistan largest.webp" alt=""  width="100%" height="auto"  ></div><h3>Pakistan’s Largest IT</h3><p>Training Provider</p></div>
-</div>
+      <div class="iconhandm">
+        <div class="feature">
+          <div class="iconwhy"><img src="graduate_cap.webp" alt="" width="100%" height="auto"></div>
+          <h3>Affordable &amp; Accessible</h3>
+          <p>Education for All</p>
+        </div>
+        <div class="feature">
+          <div class="iconwhy"><img src="earth_icon.webp" alt="" width="100%" height="auto"></div>
+          <h3>150+ Startups Launched</h3>
+          <p>Globally</p>
+        </div>
+      </div>
+      <div class="iconhandm">
+        <div class="feature">
+          <div class="iconwhy"><img src="cisco.webp" alt="" width="100%" height="auto"></div>
+          <h3>Recognized by Cisco &amp;</h3>
+          <p>Global Tech Giants</h3>
+          </p>
+        </div>
+        <div class="feature">
+          <div class="iconwhy"><img src="pakistan largest.webp" alt="" width="100%" height="auto"></div>
+          <h3>Pakistan’s Largest IT</h3>
+          <p>Training Provider</p>
+        </div>
+      </div>
 
-    
+
     </div>
   </section>
 
 
+  <section class="Browse-our">
+    <div class="browsemain">
+      <div class="browsetop">
+        <h4 class="browseheading">Browse Our <span class="Top">Top Courses</span></h4>
+      </div>
 
+      <div class="Ad-button">
 
+  <input type="radio" name="course" id="admission" checked>
+  <label for="admission" class="Admission"> Admissions Open</label>
 
+  <input type="radio" name="course" id="development">
+  <label for="development" class="Admission">Development</label>
 
+  <input type="radio" name="course" id="designing">
+  <label for="designing" class="Admission">Designing</label>
+
+  <input type="radio" name="course" id="networking">
+  <label for="networking" class="Admission">Networking</label>
+
+  <input type="radio" name="course" id="vocational">
+  <label for="vocational" class="Admission">Vocational Training Courses</label>
+
+</div>
+
+<div class="course-cardmain">
+<div class="course-card">
+
+    <div class="course-image">
+        <img src="BTC.webp" alt="">
+    </div>
+
+    <div class="course-content">
+
+        <h3 class="English" >Bootcamp</h3>
+
+        <p class="para" >
+            Develop students’ ability to understand, speak,
+            read, and write English confidently.
+        </p>
+
+        <div class="course-footer">
+
+            <a href="#" class="enroll-btn1">
+                Enroll Now
+            </a>
+
+            <div class="duration">
+                <span>Duration</span>
+                <h4>4 months</h4>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="course-card">
+
+    <div class="course-image">
+        <img src="ELCS.webp" alt="">
+    </div>
+
+    <div class="course-content">
+
+        <h3 class="English" >English Language & Communication..</h3>
+
+        <p class="para" >
+            The Mobile App Development (React Native) program is designed to equip learners with the skills ...
+        </p>
+
+        <div class="course-footer">
+
+            <a href="#" class="enroll-btn1">
+                Enroll Now
+            </a>
+
+            <div class="duration">
+                <span>Duration</span>
+                <h4>3 months</h4>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<div class="course-card">
+
+    <div class="course-image">
+        <img src="MADRN.webp" alt="">
+    </div>
+
+    <div class="course-content">
+
+        <h3 class="English" >Mobile App Development (React..</h3>
+
+        <p class="para" >
+            Develop students’ ability to understand, speak,
+            read, and write English confidently.
+        </p>
+
+        <div class="course-footer">
+
+            <a href="#" class="enroll-btn1">
+                Enroll Now
+            </a>
+
+            <div class="duration">
+                <span>Duration</span>
+                <h4>5 months</h4>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="course-card">
+
+    <div class="course-image">
+        <img src="BTC.webp" alt="">
+    </div>
+
+    <div class="course-content">
+
+        <h3 class="English" >Bootcamp</h3>
+
+        <p class="para" >
+            Develop students’ ability to understand, speak,
+            read, and write English confidently.
+        </p>
+
+        <div class="course-footer">
+
+            <a href="#" class="enroll-btn1">
+                Enroll Now
+            </a>
+
+            <div class="duration">
+                <span>Duration</span>
+                <h4>4 months</h4>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="course-card">
+
+    <div class="course-image">
+        <img src="ELCS.webp" alt="">
+    </div>
+
+    <div class="course-content">
+
+        <h3 class="English" >English Language & Communication..</h3>
+
+        <p class="para" >
+            The Mobile App Development (React Native) program is designed to equip learners with the skills ...
+        </p>
+
+        <div class="course-footer">
+
+            <a href="#" class="enroll-btn1">
+                Enroll Now
+            </a>
+
+            <div class="duration">
+                <span>Duration</span>
+                <h4>3 months</h4>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<div class="course-card">
+
+    <div class="course-image">
+        <img src="MADRN.webp" alt="">
+    </div>
+
+    <div class="course-content">
+
+        <h3 class="English" >Mobile App Development (React..</h3>
+
+        <p class="para" >
+            Develop students’ ability to understand, speak,
+            read, and write English confidently.
+        </p>
+
+        <div class="course-footer">
+
+            <a href="#" class="enroll-btn1">
+                Enroll Now
+            </a>
+
+            <div class="duration">
+                <span>Duration</span>
+                <h4>5 months</h4>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</div>
+    </div>
+      <div class="browsecard">
+      </div>
+    </div>
+  </section>
   <main style="height:1500px; padding:40px; font-family:Arial;"></main>
 
-
-  
-
-  <a href="#" class="chat-btn icon" aria-label="Chat">
+  <a href="#" class="chat-btn iconMe" aria-label="Chat">
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
       <path stroke-linecap="round" stroke-linejoin="round"
         d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 0 1-.923 1.785A5.969 5.969 0 0 0 6 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337Z" />
     </svg>
   </a>
+
+
+
+
 </body>
 
 </html>
